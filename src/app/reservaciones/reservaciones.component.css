@@ -1,0 +1,123 @@
+.cabecera_productos{
+    width: 100%;
+    height: 5vw;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+.reserva_t{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 2%;
+    border: none;
+}
+.reserva_t  i{
+    font-size: 3.5vw;
+    margin-left: 3%;
+    color: rgb(186, 12, 18);
+    cursor: pointer;
+}
+.reserva_t i:hover{
+    transform: scale(1.5);
+}
+.reserva_t h3{
+    font-family: 'Josefin Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    
+    text-align: center;
+    color: #000000;
+}
+
+.tablas{
+    width: 90%;
+    height: 35vw;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    overflow-y: scroll;
+    -webkit-box-shadow: 0px 5px 15px -3px #000000; 
+    box-shadow: 0px 5px 15px -3px #000000;
+    border: #000000 solid 1px;
+   
+}
+.reserva {
+    border-collapse: collapse;
+    width: 90%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reserva, td, tr {
+    /*border: 1px solid;*/
+    padding: 2%;
+    text-align: center;
+  }
+
+  .reserva td{
+    width: 18%;
+
+}
+
+.reserva tr:nth-child(even)
+{ background-color: #ffeef2;
+
+}
+
+
+.reserva tr:nth-child(odd)
+{ background-color: #E8C2CA;
+
+}
+
+.btn_remo{
+    
+    background-color: #E8C2CA;
+
+}
+
+.res{
+    text-align: center;
+    display: none;
+}
+.confirmacion{
+    -webkit-box-shadow: 0px 5px 15px -3px #000000; 
+    box-shadow: 0px 5px 15px -3px #000000;
+    border: #000000 solid 1px;
+    width: 35%;
+    height: 15vw;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+.confirmacion table{
+   
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Josefin Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    
+    text-align: center;
+    
+}
+
+.confirmacion table input{
+    margin-left: 4%;
+    -webkit-box-shadow: 0px 5px 15px -3px #000000; 
+    box-shadow: 0px 5px 15px -3px #000000;
+    border: #000000 solid 1px;
+}

@@ -1,0 +1,116 @@
+.log_img{
+    width: 100%;
+    height: 30vw;
+    background-color: #bd606b;
+    display: flex;
+    justify-content: center;
+    -webkit-box-shadow: 0px 9px 15px -3px #000000; 
+    box-shadow: 0px 9px 15px -3px #000000;
+}
+
+.log_img img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 15vw;
+    background-color: #D1B3C4;
+    display: flex;
+    justify-content: center;
+    -webkit-box-shadow: 0px -5px 15px -3px #000000; 
+    box-shadow: 0px -5px 15px -3px #000000;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+footer div .ubicacion{
+    width: 25%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+   
+}
+footer div .ubicacion h4{
+    font-size: 1vw;
+    
+} 
+footer div .ubicacion h3{
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+footer div .contactos{
+    width: 25%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+footer div .contactos  h4{
+    font-size: 1vw;
+    text-align: center;
+} 
+footer div .contactos  h3{
+    font-size: 1.5vw;
+    font-weight: bolder; 
+    text-align: center;
+}
+footer div .redes{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+  
+}
+
+.ajustar_redes{
+    display: flex !important;
+    justify-content: space-evenly !important;
+   
+}
+footer div .redes  h4{
+    font-size: 1vw;
+   
+} 
+footer div .redes  h3{
+    font-size: 1.5vw;
+    font-weight: bolder; 
+    text-align: center;
+}
+footer div .redes .fac{
+    font-size: 4vw ;
+    color: rgb(44, 89, 173); 
+    cursor: pointer;
+}
+footer div .redes  .ins{
+    font-size: 4vw ;
+    color: #da0897;
+    cursor: pointer;
+}
+footer div .redes  .tik{
+    font-size: 4vw ;
+    color: rgb(15, 17, 21);
+    cursor: pointer;
+}
+footer div .logo_footer{
+    width: 25%;
+    height: 100%;
+   
+}
+
+footer div .logo_footer img{
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+}

@@ -1,0 +1,51 @@
+<app-menu></app-menu>
+
+<div class="cabecera_productos_ver">
+    <h1>CATÁLOGO</h1>
+   
+  
+</div>
+<div class="reserva">
+    <h3>Reservar: </h3>
+    <a href="/reservacion"><i class="bi bi-cart-check"></i></a>
+</div>
+
+<div class="contenedor_productos">
+    <div class="busqueda">
+        <h1>Buscar: </h1>
+        <select name="select" id="categoria" (click)="poner_categoria()">
+            <option value="carnes">Carnes</option>
+            <option value="embutidos">Embutidos</option>
+            <option value="condimentos">Condimentos</option>
+           
+          </select>
+    </div>
+    <div class="productos">
+        <div class="cat_din" id="cat">
+            
+        </div>
+        <div class="merca" id="pr_mer"  >
+            <div class='prod' *ngFor = "let produc of dato" >
+                <div class='img'>
+                <img src="{{produc['img']}}" alt="{{produc['nombre']}}">
+                </div>
+                <h3> {{produc["nombre"]}}</h3>
+                <p> <strong>Descripción: </strong>{{produc['descripción']}}<br> 
+                    <strong>Precio: </strong>{{produc['precio']}} $</p>
+                    <div class='cantidad'>
+                    <p> <strong>Cantidad:</strong></p>
+                    <input type="number" min="0" value="0" id="{{produc['id']}}">
+                 
+                    
+                </div>
+
+            </div>
+            <i (click)="anadir()"class="bi bi-plus-circle-fill agregar"></i>
+
+        </div>
+        
+    </div>
+    
+    
+    
+</div>

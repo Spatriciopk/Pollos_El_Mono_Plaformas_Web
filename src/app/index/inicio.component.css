@@ -1,0 +1,90 @@
+
+h1{
+  
+    font-family: 'Josefin Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vw;
+    margin-top: 2%;
+    text-align: center;
+    color: #000000;
+}
+
+.contenedor_index{
+    width: 100%;
+    height: 45vw;
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+}
+
+.contenedor_index .documentacion{
+    width: 50%;
+    height: 100%;
+    padding: 2%;
+    flex-direction: column;
+}
+.contenedor_index .documentacion .mis_vis{
+    width: 100%;
+    height: 53%;
+    -webkit-box-shadow: 0px 5px 15px -3px #000000; 
+    box-shadow: 0px 5px 15px -3px #000000;
+    padding: 2%;
+    border: #000000 solid 1.5px;
+    text-align: justify;
+    font-size: 1.2vw;
+}
+h3{
+    font-size: 2vw;
+}
+.contenedor_index .documentacion .historia{
+    width: 100%;
+    height: 47%;
+    -webkit-box-shadow: 0px 5px 15px -3px #000000; 
+    box-shadow: 0px 5px 15px -3px #000000;
+    padding: 2%;
+    margin-top: 2%;
+    border: #000000 solid 1.5px;
+    text-align: justify;
+    font-size: 1.2vw;
+}
+.contenedor_index .mapa{
+    width: 50%;
+    height: 100%;
+    border: #000000 solid 1.5px;
+    -webkit-box-shadow: 0px 5px 15px -3px #000000; 
+    box-shadow: 0px 5px 15px -3px #000000;
+    padding: 2%;
+    margin-right: 2%;
+}
+
+.contenedor_index .mapa div{
+    width: 100%;
+    display: flex;
+    font-size: 1.8vw;
+}
+
+.contenedor_index .mapa div select{
+    
+    margin-left: 2%;
+    width: 80%;
+    text-align: center;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 5px 15px -3px #000000; 
+    box-shadow: 0px 5px 15px -3px #000000;
+}
+
+.contenedor_index .mapa .contet_mapa{
+   width: 100%;
+   height: 100%;
+   margin-top: 4%;
+   -webkit-box-shadow: 0px 5px 15px -3px #000000; 
+    box-shadow: 0px 5px 15px -3px #000000;
+    justify-content: center;
+}
+
+#map{
+    height: 90%;
+    width: 100%;
+}

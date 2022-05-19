@@ -1,0 +1,110 @@
+<app-menu></app-menu>
+
+<div class="cabecera_productos">
+    <h1 >RESERVACIONES</h1>
+   
+  
+</div>
+<div class="reserva_t">
+    <h3>Visualizar: </h3>
+    <i (click)="producto()" class="bi bi-eye"></i>
+</div>
+
+<div class ="tablas">
+    <table class="reserva" >
+        <tr>
+            <td>
+               Producto 
+            </td>
+            <td>
+                Descripción 
+             </td>
+             <td>
+                Cantidad 
+             </td>
+             <td>
+                Valor Unitario 
+             </td>
+             <td>
+                Sub Total 
+             </td>
+             <td>
+                Remover
+             </td>
+        </tr>
+        <tr *ngFor = "let produc of reservas;let indexOfelement=index;" >
+            <td >
+                {{[produc["nombre"]]}} 
+            </td>
+            <td >
+                {{[produc["descripción"]]}}
+            </td>
+            <td >
+                {{[cant[indexOfelement]]}}
+            </td>
+            <td >
+                {{[produc["precio"]]}} $
+            </td>
+            <td >
+                {{[subtotal[indexOfelement]]}} $
+            </td>
+         
+            <td>
+                <button (click)="remover(produc.id,produc.cat)"class="btn_remo">Quitar</button>
+             </td>
+      
+        </tr>
+        <tr>
+            <td >
+               
+            </td>
+            <td >
+               
+            </td>
+            <td >
+               
+            </td>
+            <td >
+               Total:
+            </td>
+            <td >
+                {{[total]}} $
+            </td>
+            <td>
+              
+             </td>
+            
+        </tr>
+    </table>
+   
+</div>
+<h1 class="res">Datos para la reservación</h1>
+<div class="confirmacion">
+
+    <table>
+        <tr>
+            <td>
+                <label for="nombre">Nombre: </label>
+            </td>
+            <td>
+                <input id="nombre" type="text" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="cedula">Cédula: </label>
+            </td>
+            <td>
+                <input id="cedula" type="number" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <INPUT type ="submit" (click)="check()"Confirmar>
+            </td>
+            <td>
+                <INPUT (click)="res()" type="reset"Restablecer>
+            </td>
+        </tr>
+    </table>
+</div>

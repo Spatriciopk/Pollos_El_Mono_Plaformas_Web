@@ -1,0 +1,41 @@
+<app-menu></app-menu>
+
+<h1>ADMINISTRADOR</h1>
+<h3> Login </h3>
+<div class="content_admin">
+    
+    <div class="formulario">
+       
+        
+                <table>
+                    <tr>
+                        <td>
+                            <LABEL for="usuario">Usuario: </LABEL>
+                        </td>
+                        <td>
+                            <INPUT type="text" id="usuario" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <LABEL for="contrasena">Contraseña: </LABEL>
+                        </td>
+                        <td>
+                            <INPUT type="password" id="contrasena" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <INPUT type="submit" value="Enviar" (click)="anadir()">
+                        </td>
+                        <td>
+                            <INPUT (click)="res()"type="reset">
+                        </td>
+                    </tr>
+                </table>
+                   
+            
+        
+    </div>
+
+</div>

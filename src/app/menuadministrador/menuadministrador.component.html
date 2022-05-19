@@ -1,0 +1,40 @@
+<ul class="nav nav-tabs">
+      
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/adminProduc">RESERVACIONES</a>
+    </li>
+  
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/index" >SALIR</a>
+    </li>
+  </ul>
+  <h3>
+      PEDIDOS REALIZADOS
+  </h3>
+  <!-- <div class="busqueda">
+      <label> C.I :</label>
+      <input id="cedula"type="text">
+      <button id="buscar" (click)="busqueda()"> Buscar</button>
+      <button id="ver" (click)="ver()"> Ver Todos </button>
+  </div> -->
+<div class="contenedor_tablas">
+  <table class="reserva">
+    <tr>
+      <td>Cliente</td>
+      <td>Cédula</td>
+      <td>Fecha</td>
+      <td>Descripción</td>
+      <td>Total</td>
+      <td></td>
+    </tr>
+    <tr *ngFor = "let produc of arraydatoSep;let indexOfelement=index;">
+        <td>{{[produc[0]]}} </td>
+        <td>{{[produc[1]]}}</td>
+        <td>{{[produc[2]]}}</td>
+        <td>{{[produc[3]]}}</td>
+        <td>{{[produc[4]]}}</td>
+        <td><i  (click)="listo(indexOfelement)" class="bi bi-check-square visto" ></i></td>
+    </tr>
+
+  </table>
+</div>

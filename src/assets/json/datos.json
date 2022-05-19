@@ -1,0 +1,247 @@
+{
+    "productos":[{
+        "nombre":"Carnes",
+        "info": [{
+            
+            "id":1,
+            "nombre":"Carne de Res",
+            "descripción":"Precio por libra",
+            "promocion":1,
+            "stock":20,
+            "precio":2.70,
+            "img":"../assets/img/Carnes/carneres.png",
+            "cat":1
+
+        },
+        {
+            "id":2,
+            "nombre":"Costilla de Res",
+            "descripción":"Precio por libra",
+            "promocion":0,
+            "stock":10,
+            "precio":1.40,
+            "img":"../assets/img/Carnes/costillares.png",
+            "cat":1
+        },
+        {
+            "id":3,
+            "nombre":"Hueso de Res",
+            "descripción":"Precio por libra",
+            "promocion":0,
+            "stock":50,
+            "precio":0.95,
+            "img":"../assets/img/Carnes/huesores.png",
+            "cat":1
+        },{
+            "id":4,
+            "nombre":"Molida de Res",
+            "descripción":"Precio por libra",
+            "promocion":1,
+            "stock":70,
+            "precio":1.70,
+            "img":"../assets/img/Carnes/molidares.png",
+            "cat":1
+        },{
+            "id":5,
+            "nombre":"Chuleta de Res",
+            "descripción":"Precio por libra",
+            "promocion":1,
+            "stock":80,
+            "precio":1.70,
+            "img":"../assets/img/Carnes/chuletares.png",
+            "cat":1
+        },{
+            "id":6,
+            "nombre":"Carne Fileteada",
+            "descripción":"Precio por libra",
+            "promocion":0,
+            "stock":100,
+            "precio":2.70,
+            "img":"../assets/img/Carnes/carnefileteada.png",
+            "cat":1
+        },{
+            "id":7,
+            "nombre":"Pollo Amarillo",
+            "descripción":"Precio por libra",
+            "promocion":0,
+            "stock":100,
+            "precio":1.10,
+            "img":"../assets/img/Carnes/polloamarillo.png",
+            "cat":1
+        },{
+            "id":8,
+            "nombre":"Pierna, Pospierna",
+            "descripción":"Precio por libra",
+            "promocion":1,
+            "stock":150,
+            "precio":1.15,
+            "img":"../assets/img/Carnes/piernapospierna.png",
+            "cat":1
+        },{
+            "id":9,
+            "nombre":"Alas con espaldilla",
+            "descripción":"Precio por libra",
+            "promocion":0,
+            "stock":200,
+            "precio":1.12,
+            "img":"../assets/img/Carnes/alasespaldilla.png",
+            "cat":1
+        },{
+            "id":10,
+            "nombre":"Solo Alas",
+            "descripción":"Precio por libra",
+            "promocion":1,
+            "stock":100,
+            "precio":1.50,
+            "img":"../assets/img/Carnes/soloalas.png",
+            "cat":1
+        },{
+            "id":11,
+            "nombre":"Solo Espaldilla",
+            "descripción":"Precio por libra",
+            "promocion":0,
+            "stock":50,
+            "precio":0.60,
+            "img":"../assets/img/Carnes/soloespaldilla.png",
+            "cat":1
+        },{
+            "id":12,
+            "nombre":"Menudencia Blanca",
+            "descripción":"Precio por libra",
+            "promocion":1,
+            "stock":100,
+            "precio":1.00,
+            "img":"../assets/img/Carnes/menudenciablanca.png",
+            "cat":1
+        },{
+            "id":13,
+            "nombre":"Menudencia Amarilla",
+            "descripción":"Precio por libra",
+            "promocion":0,
+            "stock":200,
+            "precio":0.5,
+            "img":"../assets/img/Carnes/menudenciaamarilla.png",
+            "cat":1
+        },{
+            "id":14,
+            "nombre":"Solo Patas (Blanca)",
+            "descripción":"Precio por libra",
+            "promocion":1,
+            "stock":500,
+            "precio":0.50,
+            "img":"../assets/img/Carnes/patasblanca.png",
+            "cat":1
+        },{
+            "id":15,
+            "nombre":"Solo Patas (Amarrillo)",
+            "descripción":"Precio por libra",
+            "promocion":0,
+            "stock":150,
+            "precio":0.85,
+            "img":"../assets/img/Carnes/patasamarillo.png",
+            "cat":1
+        },{
+            "id":16,
+            "nombre":"Solo Pechuga",
+            "descripción":"Precio por libra",
+            "promocion":1,
+            "stock":200,
+            "precio":1.30,
+            "img":"../assets/img/Carnes/solopechuga.png",
+            "cat":1
+        },{
+            "id":17,
+            "nombre":"Hueso de Chancho",
+            "descripción":"Precio por libra",
+            "promocion":0,
+            "stock":100,
+            "precio":1.35,
+            "img":"../assets/img/Carnes/huesochancho.png",
+            "cat":1
+        },{
+            "id":18,
+            "nombre":"Carne de Fritada",
+            "descripción":"Precio por libra",
+            "promocion":0,
+            "stock":100,
+            "precio":1.80,
+            "img":"../assets/img/Carnes/carnefritada.png",
+            "cat":1
+        },{
+            "id":19,
+            "nombre":"Chuleta de Chancho",
+            "descripción":"Precio por libra",
+            "promocion":1,
+            "stock":230,
+            "precio":2.30,
+            "img":"../assets/img/Carnes/chuletachancho.png",
+            "cat":1
+        }
+    ]
+    },
+    {
+        "nombre":"Embutidos",
+        "info": [{
+            "id":1,
+            "nombre":"Chorizo",
+            "descripción":"Precio por libra",
+            "promocion":0,
+            "stock":230,
+            "precio":2.00,
+            "img":"../assets/img/Carnes/chorizo.png",
+            "cat":2
+        },{
+            "id":2,
+            "nombre":"Longaniza",
+            "descripción":"Precio por libra",
+            "promocion":0,
+            "stock":230,
+            "precio":2.00,
+            "img":"../assets/img/Carnes/longaniza.png",
+            "cat":2
+        },{
+            "id":3,
+            "nombre":"Botones",
+            "descripción":"Bolsa de salchicha",
+            "promocion":1,
+            "stock":230,
+            "precio":2.80,
+            "img":"../assets/img/Carnes/botones.png",
+            "cat":2
+        }
+    ]
+    },
+    {
+        "nombre":"Condimentos",
+        "info": [{
+            "id":1,
+            "nombre":"Salsa de Tomate",
+            "descripción":"Botella",
+            "promocion":0,
+            "stock":20,
+            "precio":1.60,
+            "img":"../assets/img/Carnes/salsatomate.png",
+            "cat":3
+        },{
+            "id":2,
+            "nombre":"Salsa de Mayonesa",
+            "descripción":"Botella",
+            "promocion":0,
+            "stock":30,
+            "precio":1.60,
+            "img":"../assets/img/Carnes/salsamayonesa.png",
+            "cat":3
+        },{
+            "id":3,
+            "nombre":"Salsa de Rosada",
+            "descripción":"Botella",
+            "promocion":1,
+            "stock":30,
+            "precio":1.750,
+            "img":"../assets/img/Carnes/salsarosada.png",
+            "cat":3
+        }
+    ]
+    }
+]
+}

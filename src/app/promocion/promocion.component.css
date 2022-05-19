@@ -1,0 +1,185 @@
+.cabecera_productos{
+    width: 100%;
+    height: 5vw;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.reserva{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 2%;
+    border: none;
+}
+.reserva a i{
+    font-size: 3.5vw;
+    margin-left: 3%;
+    color: rgb(186, 12, 18);
+    cursor: pointer;
+}
+.reserva a:hover{
+    transform: scale(1.5);
+}
+.reserva h3{
+    font-family: 'Josefin Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    
+    text-align: center;
+    color: #000000;
+}
+.cabecera_productos h1{
+  
+    font-family: 'Josefin Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vw;
+    
+    text-align: center;
+    color: #000000;
+}
+
+.contenedor_productos{
+    width: 95%;
+    height: 50vw;
+    -webkit-box-shadow: 0px 5px 15px -3px #000000; 
+    box-shadow: 0px 5px 15px -3px #000000;
+    border: #000000 solid 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    overflow-y: scroll;
+   
+}
+.contenedor_productos .busqueda{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+  
+}
+
+.contenedor_productos .busqueda  select{
+    font-size: 2.5vw;
+    margin-left: 2%;
+    width: 20%;
+    text-align: center;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 5px 15px -3px #000000; 
+    box-shadow: 0px 5px 15px -3px #000000;
+}
+
+
+
+.contenedor_productos .productos{
+    
+    padding: 2%;
+    width: 100%;
+    height: 100%;
+   
+   
+}
+.contenedor_productos .productos .cat_din{
+    display: flex;
+    width: 100%;
+    height: 4vw;
+    font-size: 4vw;
+    font-family: 'Josefin Slab';
+    font-style: normal;
+    font-weight: 400;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.contenedor_productos  .merca{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+ 
+    justify-content: center;
+}
+.contenedor_productos  .merca .prod{
+    width: 25%;
+    height: 25vw;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    border: #000000 solid 1px;
+    -webkit-box-shadow: 0px 5px 15px -3px #000000; 
+    box-shadow: 0px 5px 15px -3px #000000;
+    
+}
+.contenedor_productos  .merca .prod h3{
+    padding-left: 2%;
+  font-size: 1.4vw;
+  font-weight: bolder;
+    
+}
+.contenedor_productos  .merca .prod p{
+padding-left: 2%;
+  font-size: 1.2vw;
+    
+}
+
+.contenedor_productos  .merca .prod .img{
+    width: 100%;
+    height: 14vw;
+    
+}
+
+.contenedor_productos  .merca .prod .img img{
+    width: 100%;
+    height: 100%;
+    
+}
+.contenedor_productos  .merca .prod .cantidad{
+    display: flex;
+    align-content: center;
+
+}
+
+.contenedor_productos  .merca .prod .cantidad input{
+    width: 15%;
+    height: 4%;
+    margin-left: 2%;
+}
+.contenedor_productos  .merca .prod .cantidad button{
+    width: 23%;
+    height: 4%;
+    margin-left: 2.5%;
+    background-color: #E8C2CA;
+}
+table {
+    border-collapse: none;
+  
+}
+
+table, td, tr {
+    border: none;
+    padding: 2%;
+    text-align: center;
+  }
+
+  .agregar{
+    position:fixed;
+	z-index:1000;
+    width: 7%;
+    height: 4%;
+    margin-left: 2.5%;
+    top :80%;
+	left: 80%;
+    font-size: 5vw;
+    color: #b65f72;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.agregar:hover{
+    transform: scale(1.2);
+}

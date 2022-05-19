@@ -1,0 +1,115 @@
+.nav{
+    margin-top: 2%; 
+    padding-left: 2% !important; 
+}
+
+ul{
+    display: flex !important;
+    background-color: #D1B3C4 !important;
+    align-items: center !important;
+    -webkit-box-shadow: 0px 9px 15px -3px #000000; 
+box-shadow: 0px 9px 15px -3px #000000;
+}
+
+li
+{
+ 
+ border: black 1px solid;
+ background-color: #E8C2CA ;
+ float: left;
+ margin: 0.5%;
+
+
+}
+li a{
+    color: black;
+    cursor: pointer !important;
+}
+li :hover
+{
+    background-color: #E8C2CA;
+    border: black 0.5px solid !important;
+    border-radius: 0px !important;
+    font-weight: bolder;   
+}
+
+.contenedor_tablas{
+    width: 90%;
+    height: 35vw;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    overflow-y: scroll;
+    -webkit-box-shadow: 0px 5px 15px -3px #000000; 
+    box-shadow: 0px 5px 15px -3px #000000;
+    border: #000000 solid 1px;
+    text-align: center;
+}
+h3{
+    margin-top: 2%;
+    font-family: 'Josefin Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vw;
+    
+    text-align: center;
+    color: #000000;
+
+}
+
+.reserva {
+    border-collapse: collapse;
+    width: 90%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reserva, td, tr {
+    /*border: 1px solid;*/
+    padding: 2%;
+    text-align: center;
+  }
+
+  .reserva td{
+    width: 18%;
+
+}
+
+.reserva tr:nth-child(even)
+{ background-color: #ffeef2;
+
+}
+
+
+.reserva tr:nth-child(odd)
+{ background-color: #E8C2CA;
+
+}
+
+.visto{
+    font-size: 3vw;
+    color: #1a3fb6;
+    cursor: pointer;
+}
+
+.busqueda{
+    width: 100;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+}
+
+.busqueda label{
+    margin-right: 1%;
+    font-weight: bolder;
+    font-size: 1.5vw;
+}
+
+.busqueda input{
+    margin-right: 2%;
+}
+.busqueda button{
+    margin-right: 1%;
+}
